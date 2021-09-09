@@ -9,6 +9,19 @@ router.get('/paises', (req, res) => {
     const JsonPaises = ['Colombia','Argentina','Mexico','España'];
       res.json(JsonPaises)
 })
+
+
+router.post('/alrevez', urlencodedParser, function (req, res) {
+
+    var PalabraAlrevez ='';
+    for(var i = req.body.palabra.length-1; i>=0; i--){
+      PalabraAlrevez += req.body.palabra[i];
+    }
+  
+    respuestaJson = { codigo:'201',palabra: req.body.palabra,PalabraAlrevez: PalabraAlrevez}
+  
+    res.json(respuestaJson)
+  })
   
   /* ====================================================================*/
   
