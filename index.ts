@@ -1,5 +1,5 @@
-import {paises,ciudades,datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3} from "./moduleOne"
-import {number1,number2,number3,boolean1,boolean2,boolean3} from "./moduleTwo"
+import {paises,ciudades,datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3} from "./ModuleOne"
+import {number1,number2,number3,boolean1,boolean2,boolean3} from "./ModuleTwo"
 
 
 console.log(number1);
