@@ -1,4 +1,4 @@
-import {paises,ciudades,datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3} from "./ModuleOne"
+import {paises,ciudades,datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariado3} from "./ModuleOne"
 import {number1,number2,number3,boolean1,boolean2,boolean3} from "./ModuleTwo"
 
 
