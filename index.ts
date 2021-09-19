@@ -10,3 +10,19 @@ console.log(number3);
 console.log(boolean1);
 console.log(boolean2);
 console.log(boolean3);
+
+
+
+
+console.log(paises);
+console.log(ciudades);
+console.log('Nombres: ' + datos[0]+ ' '+datos[1]+"\nedad: "+datos[2]+ "\nCiudad: "+ datos[3]+"\nsalario: "+datos[4] );
+
+
+console.log(concatenar('hola',concatenar('mundo','!!!')));
+console.log(contarVocales('HOLA Mundo'));
+console.log(ConvertirMayusculas('Hola'));
+
+console.log(datoVariado);
+console.log(datoVariado2);
+console.log(datoVariado3);
