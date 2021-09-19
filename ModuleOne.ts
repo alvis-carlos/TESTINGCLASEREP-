@@ -50,4 +50,4 @@ let datoVariado3: any =false;
 datoVariado3 = 5* 22;
 
 
-export{paises,ciudades, datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariado3}
+export{paises,ciudades, datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3}
