@@ -25,4 +25,4 @@ console.log(ConvertirMayusculas('Hola'));
 
 console.log(datoVariado);
 console.log(datoVariado2);
-console.log(datoVariado3);
+console.log(datoVariad3);
