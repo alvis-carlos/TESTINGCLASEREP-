@@ -1,7 +1,10 @@
 
 /*  FUNCIONES ARRAY  */
 let paises: string[]= ['Colombia', 'Peru','España','Japon'];
+paises.push('Argentina');
 let ciudades: [string,string,string,string] = ['Bogota','lima','barcelona','tokio'];
+ciudades.pop();
+
 let datos: [string,string,number,string,number] =['Carlos','Alvis',26,'Bogota',2600000];
 
 
@@ -46,8 +49,8 @@ datoVariado = 'UNO';
 let datoVariado2:any = 'esto es una cadena';
 datoVariado2 = false && false;
 
-let datoVariado3: any =false;
-datoVariado3 = 5* 22;
+let datoVariad3: any =false;
+datoVariad3 = 5* 22;
 
 
 export{paises,ciudades, datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3}
