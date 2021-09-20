@@ -43,14 +43,14 @@ function ConvertirMayusculas(cadena: string):string{
 
 /* VARIABLES any */
 
-let datoVariado:any = 1;
-datoVariado = 'UNO';
+let datoVariado:any = '1';
+datoVariado = parseInt(datoVariado);
 
-let datoVariado2:any = 'esto es una cadena';
-datoVariado2 = false && false;
+let datoVariado2:any = 1;
+datoVariado2 = datoVariado2.toString();
 
-let datoVariad3: any =false;
-datoVariad3 = 5* 22;
+let datoVariad3: any =1;
+datoVariad3 = Boolean(datoVariad3);
 
 
 export{paises,ciudades, datos,concatenar,contarVocales,ConvertirMayusculas,datoVariado,datoVariado2,datoVariad3}
